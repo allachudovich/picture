@@ -1,11 +1,12 @@
 .wrapper {
-    width: 500px;
+    width: 650px;
     margin-left: auto;
     margin-right: auto;
 }
 
 table {
     border-collapse: collapse;
+    border: 10px solid #fff;
 }
 
 tr {
@@ -14,6 +15,7 @@ tr {
 
 td {
     border: 8px solid #000000;
+    box-sizing: border-box;
 }
 
 .cell_1 {
@@ -21,28 +23,31 @@ td {
 }
 
 .cell_2 {
-    width: 100px;
+    width: 200px;
 }
 
 .cell_3 {
-    width: 160px;
+    width: 180px;
     background: #fffa69;
 }
 
-.cell_4 {
-    width: 45px;
-    height: 48px;
-}
-
 .cell_5 {
-    width: 278px;
-    height: 260px;
+    width: 300px;
+    height: 360px;
     background: #fd664c;
 }
 
 .cell_10, .cell_15 {
-    height: 70px;
+    height: 80px;
     background: #0f0c0d;
+}
+
+.cell_11 {
+    width: 72px;
+}
+
+.cell_12 {
+    width: 100px;
 }
 
 .cell_6, .cell_14 {
@@ -55,4 +60,12 @@ td {
 
 .cell_19 {
     background: #064581;
+}
+
+.cell_20 {
+    border-bottom: 0;
+}
+
+.border {
+    border-right: 8px solid #fff;
 }
